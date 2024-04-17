@@ -1,0 +1,2 @@
+# umuduchqunlari
+dars vaqti 
