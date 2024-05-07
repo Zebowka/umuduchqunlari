@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <style>
+        .dropdown-menu{
+            background-color: red !important;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-3 bg-dark p-3">
+        <div class="row">
+            <div class="col">
+                <button class="btn-close btn-close-white "></button>
+            </div>
+             <div class="col">
+                <button class="btn btn-primary" data-bs-togle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">collapseExample</button>
+             </div>
+        </div>
+
+        <div class="row">
+            
+            <div class="col">
+                <div class="collapse " id="collapseExample">
+                    <div class="card card-body">
+                     <p>Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" >
+          Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" >
+          Button with data-bs-target
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+
+      <div class="dropdown ">
+        <button class="btn btn-dark dropdown-toggle " id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="../caruosel/carousel.html">Action</a></li>
+            <li><a class="dropdown-item" href="./home.html" target="_blank">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item ">Tartibli</li>
+                    <li class="list-group-item ">Tartibli</li>
+                    <li class="list-group-item ">Tartibli</li>
+
+                </ul>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item ">Tartibli</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ol class="list-group">
+                    <li class="list-group-item ">Tartibli</li>
+
+                </ol>
+            </div>
+        </div>
+      </div>
+      <ol>
+        <li>LIst</li>
+      </ol>
+      <ul>
+        <li>list</li>
+      </ul>
+
+    <script src="../bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-3" >
+        <button class="btn btn-success " data-bs-toggle="modal" data-bs-target="#modale">Modal</button>
+
+        <div class="modal fade p-3" id="modalex">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <button class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h5 class="modal-title ">Hello</h5>
+                    </div>
+                    <div class="modal-body">
+                     <label for="" class="form-label">Name</label>
+                     <input type="text" class="form-control " placeholder ="Enter your Name">
+                     <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                      
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                      <select name="" id="" class="form-select mt-3 ">
+                        <option value="">UZB</option>
+                        <option value="">UZB</option>
+                        <option value="">UZB</option>
+                      </select>
+
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA-NgFp9NUXZ9sDLcn5z9T2AJBfyTODDMnubQOnPaIMw&s" class="mt-3 w-100 rounded-2 " alt="">
+
+                      
+                    </div>
+                    <div class="modal-header ">
+                        <button class="btn btn-success" data-bs-dismiss="modal" aria-label="Close">Buy now</button>
+                      <button class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA-NgFp9NUXZ9sDLcn5z9T2AJBfyTODDMnubQOnPaIMw&s" alt="">
+                    <div class="card-body">
+                        <h4>Cards</h4>
+                        <button class="btn btn-success " data-bs-toggle="modal" data-bs-target="#modalex">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
