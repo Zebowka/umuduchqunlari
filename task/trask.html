@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body{
+            background-color: rgb(39, 38, 38);
+            color: white !important;
+            
+        }
+        .fontSize{
+            font-size: 6rem;
+           
+        }
+        .btn-dark1{
+            background-color: black;
+            color: white;
+        }
+        .bgdrop{
+            background-color: rgb(29, 28, 28)
+        }
+        .logp{
+            width: 80%;
+            border: 5px dashed rgb(63, 29, 29) ;
+            
+        }
+        .dark{
+            background-color: rgb(2, 59, 59);
+            border-radius: 20px;
+        }
+        .border1{
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar start -->
+    <div class="container mt-2">
+        <nav class="navbar navbar-expand-lg border-0  bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" class="w-25" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span><i class="bi bi-suitcase2-fill me-2"></i></span>Travelers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Listings</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Home start -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="./img/trav.jpg" class="card-img" alt="">
+                    <div class="card-img-overlay ">
+                        <h1 class="fw-bold text-dark p-5 m-4 fontSize d-block  ">Ready to take off?</h1>
+                        <div class="row bg-dark p-4">
+                            <div class="col-3 btn-group">
+                                <button class="btn btn-dark1 ">One Way</button>
+                                <button class="btn btn-secondary ">Round Trip</button>
+                            </div>
+                            <div class="col offset-4">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item text-white " href="#">Action</a></li>
+                                      <li><a class="dropdown-item text-white " href="#">Another action</a></li>
+                                      <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="col ">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item text-white " href="#">Action</a></li>
+                                      <li><a class="dropdown-item text-white " href="#">Another action</a></li>
+                                      <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="row p-4">
+                                <div class="col  mt-3 bgdrop m-2 p-3 ">
+                                   <p class="text-muted"><i class="bi bi-geo-alt text-white text-muted "></i> From</p>
+                                   <select class="form-select bg-dark p-2" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1" class=" text-white">One</option>
+                                    <option value="2" class="text-white">Two</option>
+                                    <option value="3" class=" text-white">Three</option>
+                                  </select>
+                                </div>
+                                <div class="col  mt-3 bgdrop m-2 p-3 ">
+                                    <p class="text-muted"><i class="bi bi-geo-alt text-white text-muted "></i> From</p>
+                                    <select class="form-select bg-dark p-2" aria-label="Default select example">
+                                     <option selected>Open this select menu</option>
+                                     <option value="1" class=" text-white">One</option>
+                                     <option value="2" class="text-white">Two</option>
+                                     <option value="3" class=" text-white">Three</option>
+                                   </select>
+                                 </div>
+                                 <div class="col  mt-3 bgdrop m-2  p-3">
+                                    <p class="text-muted"><i class="bi bi-geo-alt text-white text-muted "></i> From</p>
+                                    <select class="form-select bg-dark p-2" aria-label="Default select example">
+                                     <option selected>Open this select menu</option>
+                                     <option value="1" class=" text-white">One</option>
+                                     <option value="2" class="text-white">Two</option>
+                                     <option value="3" class=" text-white">Three</option>
+                                   </select>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home end -->
+
+    <!-- Special Offers start -->
+    <div class="container mt-5">
+        <div class="row">
+            <h1 class="text-white fw-bold">Special Offers</h1>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="card border-0 dark">
+                    <img src="./img/Pro.svg" class="w-100  border-0 p-5" alt="">
+                    <div class="card-body border-0 dark p-5">
+                        <p class="text-muted ">Flat</p>
+                        <h3 class="fw-bold">$899 off</h3>
+                        <p>On Domestic Flights</p>
+                        <h4 class="logp p-1 text-center ">LOG125F</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0">
+                    <img src="./img/Pro.svg" class="w-100 bg-dark border-0 p-5" alt="">
+                    <div class="card-body border-0 bg-dark p-5">
+                        <p class="text-muted ">Flat</p>
+                        <h3 class="fw-bold">$899 off</h3>
+                        <p>On Domestic Flights</p>
+                        <h4 class="logp p-1 text-center ">LOG125F</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0">
+                    <img src="./img/Pro.svg" class="w-100 bg-dark border-0 p-5" alt="">
+                    <div class="card-body border-0 bg-dark p-5">
+                        <p class="text-muted ">Flat</p>
+                        <h3 class="fw-bold">$899 off</h3>
+                        <p>On Domestic Flights</p>
+                        <h4 class="logp p-1 text-center ">LOG125F</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Special Offers end -->
+
+    <!-- Popular Destinations start -->
+    <div class="container mt-5">
+        <div class="row mt-3">
+            <h1 class="text-center  fw-bold">Popular Destinations</h1>
+        </div>
+        <div class="row">
+            <div class="col border-0">
+                <img src="./img/parij.jpg" class="border1 w-100 mt-3" alt="">
+            </div>
+            <div class="col border-0">
+                <img src="./img/parij.jpg" class="border1 w-100 mt-3" alt="">
+            </div>
+            <div class="col border-0">
+                <img src="./img/parij.jpg" class="border1 w-100 mt-3" alt="">
+            </div>
+            <div class="col border-0">
+                <img src="./img/parij.jpg" class="border1 w-100 mt-3" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Popular Destinations end -->
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col p-5 text-center">
+                <img src="./img/yer.svg" class="w-25" alt="">
+                <h3 class="text-center">Search Choice</h3>
+                <p class="text-muted">Total 630+ destinations that we work with</p>
+            </div>
+            <div class="col p-5 text-center align-self-center mt-5">
+                <img src="./img/yer.svg" class="w-25" alt="">
+                <h3 class="text-center">Search Choice</h3>
+                <p class="text-muted">Total 630+ destinations that we work with</p>
+            </div>
+            <div class="col p-5 text-center ">
+                <img src="./img/yer.svg" class="w-25" alt="">
+                <h3 class="text-center">Search Choice</h3>
+                <p class="text-muted">Total 630+ destinations that we work with</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
